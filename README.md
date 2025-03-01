@@ -6,52 +6,52 @@ The Banking Application is a secure and scalable web application built using Spr
 
 Features
 
-User Authentication: Secure login and registration with password hashing.
+• User Authentication: Secure login and registration with password hashing.
 
-Account Management: Create, update, and delete bank accounts.
+• Account Management: Create, update, and delete bank accounts.
 
-Transactions: Deposit, withdraw, and transfer money between accounts.
+• Transactions: Deposit, withdraw, and transfer money between accounts.
 
-Transaction History: View past transactions with timestamps.
+• Transaction History: View past transactions with timestamps.
 
-Security: JWT-based authentication and role-based access control.
+• Security: JWT-based authentication and role-based access control.
 
-Scalability: Designed with modularity to support future enhancements.
+• Scalability: Designed with modularity to support future enhancements.
 
 Technologies Used
 
-Backend: Java, Spring Boot (Spring MVC, Spring Security, Spring Data JPA)
+• Backend: Java, Spring Boot (Spring MVC, Spring Security, Spring Data JPA)
 
-Database: MySQL
+• Database: MySQL
 
-Security: JWT Authentication, Spring Security
+• Security: JWT Authentication, Spring Security
 
-Build Tool: Maven
+• Build Tool: Maven
 
-Version Control: Git, GitHub
+• Version Control: Git, GitHub
 
-API Documentation: Swagger (OpenAPI)
+• API Documentation: Swagger (OpenAPI)
 
 Installation & Setup
 
 Prerequisites
 
-Java 17+
+• Java 17+
 
-Maven
+• Maven
 
-MySQL Server
+• MySQL Server
 
-Postman (optional, for API testing)
+• Postman (optional, for API testing)
 
 Steps to Run the Application
 
-Clone the repository
+1.Clone the repository
 
-git clone https://github.com/your-username/banking-application.git
+2.git clone https://github.com/your-username/banking-application.git
 cd banking-application
 
-Configure Database
+3.Configure Database
 
 Update application.properties in src/main/resources/ with your MySQL credentials:
 
@@ -63,60 +63,60 @@ Run MySQL and create the database:
 
 CREATE DATABASE banking_db;
 
-Build and Run the Application
+4.Build and Run the Application
 
-mvn clean install
-mvn spring-boot:run
+5.mvn clean install
+  mvn spring-boot:run
 
 API Endpoints
 
 Authentication
 
-POST /api/auth/register → Register a new user
+• POST /api/auth/register → Register a new user
 
-POST /api/auth/login → Authenticate and receive JWT token
+• POST /api/auth/login → Authenticate and receive JWT token
 
 Account Management
 
-GET /api/accounts/{id} → Get account details
+• GET /api/accounts/{id} → Get account details
 
-POST /api/accounts → Create a new account
+• POST /api/accounts → Create a new account
 
-DELETE /api/accounts/{id} → Delete an account
+• DELETE /api/accounts/{id} → Delete an account
 
 Transactions
 
-POST /api/transactions/deposit → Deposit money
+• POST /api/transactions/deposit → Deposit money
 
-POST /api/transactions/withdraw → Withdraw money
+• POST /api/transactions/withdraw → Withdraw money
 
-POST /api/transactions/transfer → Transfer money between accounts
+• POST /api/transactions/transfer → Transfer money between accounts
 
 Security & Authentication
 
-Uses JWT for secure API authentication.
+• Uses JWT for secure API authentication.
 
-Role-Based Access Control (RBAC) to restrict access.
+• Role-Based Access Control (RBAC) to restrict access.
 
 Future Enhancements
 
-Implement Two-Factor Authentication (2FA).
+• Implement Two-Factor Authentication (2FA).
 
-Add support for multi-currency transactions.
+• Add support for multi-currency transactions.
 
-Integrate with external payment gateways.
+• Integrate with external payment gateways.
 
 Contribution Guidelines
 
-Fork the repository.
+• Fork the repository.
 
-Create a feature branch (git checkout -b feature-name).
+• Create a feature branch (git checkout -b feature-name).
 
-Commit your changes (git commit -m 'Add feature-name').
+• Commit your changes (git commit -m 'Add feature-name').
 
-Push to the branch (git push origin feature-name).
+• Push to the branch (git push origin feature-name).
 
-Open a Pull Request for review.
+• Open a Pull Request for review.
 
 License
 
@@ -126,6 +126,6 @@ Contact
 
 For any queries or suggestions, feel free to reach out:
 
-Email: sahilbhai@example.com
+• Email: sahilmalaiya7@gmail.com
 
-GitHub: Your GitHub Profile
+• GitHub: [Your GitHub Profile](https://github.com/Sahil-Malaiya)
